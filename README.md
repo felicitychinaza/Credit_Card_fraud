@@ -28,7 +28,7 @@ The workflow includes:
 ## Visualization Insights
 
 ### 1. Fraud vs Non-Fraud Transaction History
-img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511fa335ecf2_fraudvsnon-fraudcount" src="https://github.com/user-attachments/assets/e2dfc6fe-7caa-475f-bf73-59f8a1236dbe" />
+<img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511fa335ecf2_fraudvsnon-fraudcount" src="https://github.com/user-attachments/assets/e2dfc6fe-7caa-475f-bf73-59f8a1236dbe" />
 
 
 **Insight:** Legitimate transactions dominate, fraud is rare and irregular. Spikes indicate targeted attacks.
