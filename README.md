@@ -45,11 +45,15 @@ img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511f
 
 **Insight:** Fraud often involves high or unusual amounts; legitimate transactions cluster at moderate amounts.
 
+
 ### 4. Transaction Amount vs Fraud
+<img width="600" height="500" alt="anaconda-projects-252f3fdb-6ab8-4742-a60d-511fa335ecf2-Transaction-Amountby-Fraud" src="https://github.com/user-attachments/assets/8de80f07-f8ef-4692-8bcc-8fe33eaf0e46" />
 
 **Insight:** Fraud occurs at extreme amounts; transaction amount alone cannot fully separate fraud from non-fraud.
 
 ### 5. Correlation Heatmap
+<img width="1280" height="1157" alt="download" src="https://github.com/user-attachments/assets/041b13ec-b746-4103-b8dd-60189f8fb92a" />
+
 
 **Insight:** Features are mostly independent, providing unique predictive information. Identifies redundant features for feature selection.
 
@@ -65,6 +69,9 @@ img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511f
 | Accuracy | 0.93 |
 | R² Score | 0.102 |
 
+<img width="800" height="600" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511fa335ecf2_LogisticRegressionFeatures" src="https://github.com/user-attachments/assets/0426fb95-1673-4d22-ad9b-6a14dee4d073" />
+
+
 **Interpretation:**  
 - High precision but low recall → model misses most fraud cases.  
 - Features like Transaction Amount and Hour are important predictors.  
@@ -79,7 +86,10 @@ img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511f
 | 0 (Non-Fraud) | 1.00 | 0.92 | 0.96 | 2948 |
 | 1 (Fraud)     | 0.18 | 1.00 | 0.31 | 52 |
 
-- **ROC-AUC:** 0.993  
+- **ROC-AUC:** 0.993
+
+  <img width="1000" height="600" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511fa335ecf2_FeaturesImportance" src="https://github.com/user-attachments/assets/55868023-26d5-4197-bccf-a382b75a93a2" />
+
 
 **Interpretation:**  
 - Perfect recall ensures no fraud is missed.  
@@ -97,7 +107,7 @@ img width="600" height="400" alt="anaconda_projects_252f3fdb-6ab8-4742-a60d-511f
 - Optimal threshold prioritizes high recall to ensure fraud is captured.
 
 ---
-<img width="567" height="455" alt="__results___25_0" src="https://github.com/user-attachments/assets/d7887914-de0d-4348-9b79-bf0d4d22d4ea" />
+
 
 ## Cost-Based Optimization
 
